@@ -3,13 +3,12 @@ import mongoose from 'mongoose';
 // import { Schema } from 'mongoose';
 // const model = mongoose.model;
 
-const courseSpecification = Object.freeze({
+const courseLevel = Object.freeze({
      SSC : "SSC",
-     Inter :  "Intermediate",
-     Degree : "Degree",
-     Engineering: "Engineering",
+     HSC :  "Higher Secondary",
      Diploma: "Diploma",
-     Medical: "Medical"
+     Undergraduate: "Undergraduate",
+     Postgraduate: "Postgraduate"
 });
 
 const CoursesSchema = new mongoose.Schema({
@@ -18,10 +17,19 @@ const CoursesSchema = new mongoose.Schema({
             required: true,
             unique: true
        },
-       specification: {
-              type: String,
-              enum: Schema.values(courseSpecification),
-              required: true
+       level: {
+          type: String,
+          validate: {
+               validator: function(value) {
+                   return value === 'null' || Object.values(courseLevel).includes(value);
+               },
+               message: props => props.value+  " is not a valid value for level!"
+           },
+           //default: 'null'
+       },
+       courseType: {
+          type: String,
+          //default: 'null'
        }
 });
 

@@ -1,24 +1,46 @@
-name,level
-SSC,SSC
-MPC,Intermediate
-BiPC,Intermediate
-CEC,Intermediate
-MEC,Intermediate
-HEC,Intermediate
-CSE,Diploma
-IT,Diploma
-ECE,Diploma
-EEE,Diploma
-Mechanical,Diploma
-Civil,Diploma
-Chemical,Diploma
-MME,Diploma
-CSE,Engineering
-IT,Engineering
-ECE,Engineering
-EEE,Engineering
-Mechanical,Engineering
-Civil,Engineering
-Chemical,Engineering
-MME,Engineering
-
+name,level,courseType
+Tenth,SSC
+CSE Diploma Engineering,Diploma,Engineering Diploma
+ECE Diploma Engineering,Diploma,Engineering Diploma
+EEE Diploma Engineering,Diploma,Engineering Diploma
+Mechanical Diploma Engineering,Diploma,Engineering Diploma
+Civil Diploma Engineering,Diploma,Engineering Diploma
+Chemical Diploma Engineering,Diploma,Engineering Diploma
+MME Diploma Engineering,Diploma,Engineering Diploma
+Data Entry Operator
+MPC,Higher Secondary
+BiPC,Higher Secondary
+CEC,Higher Secondary
+MEC,Higher Secondary
+HEC,Higher Secondary
+Hotel Management
+Army
+Navy
+Air Force
+Police
+B.Com,Undergraduate
+B.B.A,Undergraduate
+B.Arch,Undergraduate
+B.C.A,Undergraduate
+B.Sc,Undergraduate
+D.Ed,Undergraduate
+B.A,Undergraduate
+L.L.B Foundation,Undergraduate
+B.Sc Nursing,Undergraduate
+CSE,Undergraduate,B.Tech
+ECE,Undergraduate,B.Tech
+EEE,Undergraduate,B.Tech
+Mechanical,Undergraduate,B.Tech
+Civil,Undergraduate,B.Tech
+Chemical,Undergraduate,B.Tech
+MME,Undergraduate,B.Tech
+M.B.B.S,Undergraduate,Medical
+L.L.B,Undergraduate
+B.Ed,Undergraduate
+L.L.M,Postgraduate
+M.B.A,Postgraduate
+M.C.A,Postgraduate
+M.Ed,Postgraduate
+M.A,Postgraduate
+M.S,Postgraduate
+M.Tech,Postgraduate

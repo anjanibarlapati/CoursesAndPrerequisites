@@ -15,6 +15,4 @@ async function dbConnection(){
 //     e => console.log(e)
 // );
 
-dbConnection();
-
 export default dbConnection;

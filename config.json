@@ -1,0 +1,4 @@
+{
+    "coursesDataPath": "Data/courses.csv",
+    "prerequisitesDataPath": "Data/prerequisites.csv"
+}
